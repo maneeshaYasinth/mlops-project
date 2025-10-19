@@ -1,6 +1,19 @@
-# Ignore the Python virtual environment folder
+# Python Virtual Environment
 venv/
 
-# Ignore Python cache files
+# Python cache files
 __pycache__/
 *.pyc
+
+# Flask temporary upload folder
+uploads/
+
+# AWS Elastic Beanstalk local config folder
+.elasticbeanstalk/
+
+# VS Code editor folder
+.vscode/
+
+# Windows system files
+Thumbs.db
+desktop.ini
